@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PooViewController : UIViewController
+@interface PooViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @end
